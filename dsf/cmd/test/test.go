@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -10,33 +11,40 @@ import (
 	"github.com/Duet3D/dsf-go/dsf/types"
 )
 
-const (
-	LocalSock = "/home/manuel/tmp/duet.sock"
-)
+func usage(name string) {
+	fmt.Printf("usage: %s SOCKET_FILE subscribe|intercept|command GCODE...\n", name)
+}
 
 func main() {
-	if len(os.Args) <= 1 {
-		return
+	if len(os.Args) <= 2 {
+		usage(os.Args[0])
+		os.Exit(1)
 	}
-	switch os.Args[1] {
+
+	var socket_file string = os.Args[1]
+
+	switch os.Args[2] {
 	case "subscribe":
-		subscribe()
+		subscribe(socket_file)
 	case "intercept":
-		intercept()
+		intercept(socket_file)
 	case "command":
 		if len(os.Args) > 2 {
 			for _, c := range os.Args[2:] {
-				command(c)
+				command(socket_file, c)
 			}
 		} else {
-			command("")
+			command(socket_file, "")
 		}
+	default:
+		usage(os.Args[0])
+		os.Exit(1)
 	}
 }
 
-func command(code string) {
+func command(socket_file string, code string) {
 	cc := connection.CommandConnection{}
-	err := cc.Connect(LocalSock)
+	err := cc.Connect(socket_file)
 	if err != nil {
 		panic(err)
 	}
@@ -56,10 +64,10 @@ func command(code string) {
 	}
 }
 
-func subscribe() {
+func subscribe(socket_file string) {
 	sc := connection.SubscribeConnection{}
 	sc.Debug = true
-	err := sc.Connect(initmessages.SubscriptionModePatch, "heat/**", LocalSock)
+	err := sc.Connect(initmessages.SubscriptionModePatch, "heat/**", socket_file)
 	if err != nil {
 		log.Panic(err)
 	}
@@ -71,10 +79,10 @@ func subscribe() {
 	log.Println(m)
 }
 
-func intercept() {
+func intercept(socket_file string) {
 	ic := connection.InterceptConnection{}
 	ic.Debug = true
-	err := ic.Connect(initmessages.InterceptionModePre, LocalSock)
+	err := ic.Connect(initmessages.InterceptionModePre, socket_file)
 	if err != nil {
 		log.Panic(err)
 	}

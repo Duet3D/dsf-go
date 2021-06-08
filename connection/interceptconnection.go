@@ -1,9 +1,9 @@
 package connection
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/connection/initmessages"
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/commands"
+	"github.com/Duet3D/dsf-go/connection/initmessages"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 // InterceptConnection to intercept G/M/T-codes from the control server

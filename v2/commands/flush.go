@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v2/types"
+import "github.com/Duet3D/dsf-go/v2/types"
 
 // Flush waits for all pending (macro) codes on the given channel to finish.
 // This effectively guarantees that all buffered codes are processed by RRF

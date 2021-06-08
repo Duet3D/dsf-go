@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 // SendHttpResponse responds to a received HTTP request

@@ -1,7 +1,7 @@
 package connection
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/connection/initmessages"
+	"github.com/Duet3D/dsf-go/v2/connection/initmessages"
 )
 
 // CommandConnection used to send commands to the control server

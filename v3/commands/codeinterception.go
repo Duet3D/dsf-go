@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v3/machine/messages"
+import "github.com/Duet3D/dsf-go/v3/machine/messages"
 
 var cancel = NewBaseCommand("Cancel")
 var ignore = NewBaseCommand("Ignore")

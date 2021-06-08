@@ -5,8 +5,8 @@ import (
 
 	"os"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/machine/httpendpoints"
+	"github.com/Duet3D/dsf-go/v3/commands"
+	"github.com/Duet3D/dsf-go/v3/machine/httpendpoints"
 )
 
 const (

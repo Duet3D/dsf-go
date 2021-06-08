@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v2/types"
+import "github.com/Duet3D/dsf-go/v2/types"
 
 // SimpleCode performs a simple G/M/T-code.
 // On the server the code passed is converted to a full Code instance and on completion

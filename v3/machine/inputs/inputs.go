@@ -3,7 +3,7 @@ package inputs
 import (
 	"sync"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+	"github.com/Duet3D/dsf-go/v3/types"
 )
 
 // Inputs holds all available code channels

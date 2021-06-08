@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+	"github.com/Duet3D/dsf-go/v3/types"
 )
 
 // ErrMissingParameter if a parameter was not available

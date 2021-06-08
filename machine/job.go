@@ -1,6 +1,6 @@
 package machine
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/types"
+import "github.com/Duet3D/dsf-go/types"
 
 // Job holds information about the current file job (if any)
 type Job struct {

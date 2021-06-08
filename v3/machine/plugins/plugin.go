@@ -4,7 +4,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+	"github.com/Duet3D/dsf-go/v3/types"
 )
 
 // Plugin represents a loaded plugin

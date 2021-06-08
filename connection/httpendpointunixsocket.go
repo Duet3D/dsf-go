@@ -5,7 +5,7 @@ import (
 
 	"os"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 const (

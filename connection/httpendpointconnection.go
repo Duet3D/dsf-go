@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/commands"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 // HttpEndpointConnection is dealing with requests received from a custom HTTP endpoint

@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/types"
+import "github.com/Duet3D/dsf-go/types"
 
 // AddUserSession registers a new user session
 type AddUserSession struct {

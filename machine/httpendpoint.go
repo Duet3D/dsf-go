@@ -1,6 +1,6 @@
 package machine
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/types"
+import "github.com/Duet3D/dsf-go/types"
 
 // HttpEndpoint represents an extra HTTP endpoint
 type HttpEndpoint struct {

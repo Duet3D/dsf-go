@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/connection"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/connection/initmessages"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/machine/messages"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+	"github.com/Duet3D/dsf-go/v3/commands"
+	"github.com/Duet3D/dsf-go/v3/connection"
+	"github.com/Duet3D/dsf-go/v3/connection/initmessages"
+	"github.com/Duet3D/dsf-go/v3/machine/messages"
+	"github.com/Duet3D/dsf-go/v3/types"
 )
 
 const (

@@ -1,9 +1,9 @@
 package connection
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/connection/initmessages"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine"
+	"github.com/Duet3D/dsf-go/v2/commands"
+	"github.com/Duet3D/dsf-go/v2/connection/initmessages"
+	"github.com/Duet3D/dsf-go/v2/machine"
 )
 
 // SubscribeConnection is used to subscribe for object model updates

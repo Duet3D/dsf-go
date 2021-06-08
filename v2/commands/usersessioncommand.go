@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/usersessions"
+	"github.com/Duet3D/dsf-go/v2/machine/usersessions"
 )
 
 // AddUserSession registers a new user session

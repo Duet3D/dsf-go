@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/httpendpoints"
+	"github.com/Duet3D/dsf-go/v2/machine/httpendpoints"
 )
 
 // HttpEndpointCommand is used to either create or remove a custom HTTP endpoint

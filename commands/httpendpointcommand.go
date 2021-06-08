@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/types"
+import "github.com/Duet3D/dsf-go/types"
 
 // HttpEndpointCommand is used to either create or remove a custom HTTP endpoint
 type HttpEndpointCommand struct {

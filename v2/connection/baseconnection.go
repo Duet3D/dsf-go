@@ -12,8 +12,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/connection/initmessages"
+	"github.com/Duet3D/dsf-go/v2/commands"
+	"github.com/Duet3D/dsf-go/v2/connection/initmessages"
 )
 
 const (

@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/messages"
+	"github.com/Duet3D/dsf-go/v2/machine/messages"
 )
 
 // Resolve the code to intercept and return the given message details for its completion.

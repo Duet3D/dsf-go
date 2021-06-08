@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/commands"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/httpendpoints"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/job"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/usersessions"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v2/types"
+	"github.com/Duet3D/dsf-go/v2/commands"
+	"github.com/Duet3D/dsf-go/v2/machine"
+	"github.com/Duet3D/dsf-go/v2/machine/httpendpoints"
+	"github.com/Duet3D/dsf-go/v2/machine/job"
+	"github.com/Duet3D/dsf-go/v2/machine/usersessions"
+	"github.com/Duet3D/dsf-go/v2/types"
 )
 
 // BaseCommandConnection for sending commands to the control server

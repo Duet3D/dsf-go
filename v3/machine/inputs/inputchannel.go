@@ -1,6 +1,6 @@
 package inputs
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+import "github.com/Duet3D/dsf-go/v3/types"
 
 // Compatibility level for emulation
 type Compatibility string

@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v2/types"
+import "github.com/Duet3D/dsf-go/v2/types"
 
 // EvaluateExpression can be used to evaluate an arbitrary expression on the given channel in RepRapFirmware
 //

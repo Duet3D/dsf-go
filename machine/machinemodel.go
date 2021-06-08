@@ -1,6 +1,6 @@
 package machine
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/commands"
+import "github.com/Duet3D/dsf-go/commands"
 
 // MachineModel represents the full machine model as maintained by DuetControlServer
 type MachineModel struct {

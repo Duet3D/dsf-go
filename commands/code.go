@@ -6,7 +6,7 @@ import (
 
 	"time"
 
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 // Message is a generic container for messages

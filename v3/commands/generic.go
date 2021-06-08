@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/machine/messages"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/machine/state"
-	"github.com/Duet3D/DSF-APIs/godsfapi/v3/types"
+	"github.com/Duet3D/dsf-go/v3/machine/messages"
+	"github.com/Duet3D/dsf-go/v3/machine/state"
+	"github.com/Duet3D/dsf-go/v3/types"
 )
 
 // CheckPassword checks if the given password is correct and matches the previously set value from M551.

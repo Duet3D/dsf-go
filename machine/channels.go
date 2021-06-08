@@ -1,7 +1,7 @@
 package machine
 
 import (
-	"github.com/Duet3D/DSF-APIs/godsfapi/types"
+	"github.com/Duet3D/dsf-go/types"
 )
 
 // Channels holds all available code channels

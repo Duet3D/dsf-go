@@ -1,6 +1,6 @@
 package commands
 
-import "github.com/Duet3D/DSF-APIs/godsfapi/v2/machine/messages"
+import "github.com/Duet3D/dsf-go/v2/machine/messages"
 
 // WriteMessage writes an arbitrary message.
 // If neither OutputMessage nor LogMessage is true the message is

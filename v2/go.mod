@@ -1,4 +1,4 @@
-module github.com/Duet3D/DSF-APIs/godsfapi/v2
+module github.com/Duet3D/dsf-go/v2
 
 go 1.14
 

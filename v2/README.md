@@ -1,4 +1,4 @@
-# godsfapi
+# dsf-go
 Implementation of DuetAPIClient in Go
 
 ## Differences

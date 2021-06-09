@@ -1,4 +1,4 @@
-module github.com/Duet3D/dsf-go/dsf/v2
+module github.com/Duet3D/dsf-go/v2
 
 go 1.14
 
